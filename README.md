@@ -16,5 +16,5 @@ Basic C++ and Object-Oriented Programming (OOP) lab assignments, covering fundam
 ( Hint: Please do not use the min and max functions.)
 2.  Write a program that calculates the squares and cubes of the integers from 0 to 10. Use tabs to print the following neatly formatted table of values:
 
-![My Image](images/Lab_02.png)
+ ![My Image](images/Lab_02.png)
 
