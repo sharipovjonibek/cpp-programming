@@ -1,61 +1,107 @@
-# OOP-lab
+# OOP-Lab
 
-This repository contains basic C++ and Object-Oriented Programming (OOP) lab assignments. The exercises cover fundamental concepts such as classes, inheritance, polymorphism, and encapsulation, moving from basic syntax to logical structures.
+Basic C++ and Object-Oriented Programming (OOP) lab assignments, covering fundamental concepts such as classes, inheritance, polymorphism, and encapsulation.
 
 ---
 
-## 📂 Lab 01: Basics & Variables
-1. **Welcome Program**: Print `“Welcome to IUT”`.
-2. **Variable Declaration**: Declare and print values for different types (`int`, `float`, `double`, `char`).
-3. **Area Calculator**: Write a program to calculate the **Area of a Square** based on user input.
+# Lab_01
 
-## 📂 Lab 02: Arithmetic & Formatting
-1. **Integer Statistics**: Input three integers and print their **sum, average, product, smallest, and largest**. 
-   - *Constraint:* Do not use `min` or `max` functions.
-2. **Squares & Cubes Table**: Calculate squares and cubes for integers 0–10. 
-   - *Constraint:* Use tabs for formatting and do **not** use a `for` loop.
-3. **Driving Cost Calculator**: Estimate daily driving costs to encourage carpooling.
-   - **Inputs:** Total km/day, cost per liter, average km per liter.
-   - **Formula:** `Total cost = (total km / average km) * cost per liter`
+1. Print “Welcome to IUT”.
+2. Declaring Variable and Printing its Value
+   *(Hint: one variable of each type like: int, float, double, char).*
+3. Write a program to Calculate Area of Square.
+   *(Hint: take input from user).*
 
-## 📂 Lab 03: Decision Making (Selection)
-1. **Tax Calculator**: Calculate tax and net income based on the following salary brackets:
-   | Salary (USD) | Tax Rate |
-   | :--- | :--- |
-   | < 2000 | 0% |
-   | 2001 - 2999 | 20% |
-   | 3001 - 4999 | 30% |
-   | ≥ 5000 | 40% |
-2. **Parity Check**: Test whether a number is **odd, even, or zero**.
-3. **Steel Grading**: Grade steel based on:
-   - (a) Hardness > 50
-   - (b) Carbon content < 0.7
-   - (c) Tensile strength > 5600
-   
-   **Grades:** 10 (all 3), 9 (a & b), 8 (b & c), 7 (a & c), 6 (any 1), 5 (none).
+---
 
-## 📂 Lab 04: Iteration (While & Switch)
-1. **Odd Product**: Use a `while` statement to find the product of odd integers from 1 to 15.
-2. **Range Sum**: Input `m` and `n`, then calculate the sum of all numbers between them (e.g., 3 to 8 = 33).
-3. **Calculator**: Implement a basic arithmetic calculator using a `switch case`.
-4. **Digit Sum**: Input a number (e.g., 562) and calculate the sum of its digits (5+6+2 = 13).
+# Lab_02
 
-## 📂 Lab 05: Iteration (For Loops)
-1. **Winner Selection**: Use a `for` loop to find the largest of 10 user-inputted numbers using variables `counter`, `number`, and `largest`.
-2. **Formatted Table**: Use a `for` loop and `\t` to generate the table specified in the lab requirements.
-3. **Sequence 1 (Star Pattern)**:
-   ```text
-   *
-   **
-   ***
-   ****
-   *****
+1. Write a program that inputs three integers from the keyboard and prints the sum, average, product, smallest and largest of these numbers.
+   *(Hint: Please do not use the min and max functions)*
+2. Write a program that calculates the squares and cubes of the integers from 0 to 10. Use tabs to print the following neatly formatted table of values:
+   ![My Image](images/Lab_02.png)
+   *(Hint: Please generate this table without employing a for loop)*
+3.  Create an application that calculates your daily driving cost, so that you can estimate how much money could be saved by car pooling. The application should input the following information and display the user’s cost per day of driving to work: 
 
-4. **Sequence 2 (Right-Aligned Numbers)**:
+    a) Total km driven per day.  
+    b) Cost per liter of gasoline.  
+    c) Average km per liter.  
+    d) Total cost per day.
 
-    1
-   12
-  123
- 1234
-12345
+    (Hint: Total cost per day = (total km / average km) * cost per liter)
 
+---
+
+# Lab_03
+
+1. Write a program to calculate tax, given the following conditions: 
+    ```text
+    If salary is less than 2000 USD then no tax will be zero.
+    If salary is in the range of 2001 to 3000 USD (2001<=salary<3000) then tax will be charged with rate of 20%.
+    If salary is in the range of 3001 to 5000 USD (3001<=salary<5000) then tax will be charged with rate of 30%. 
+    If taxable income is above 5000 then tax will be charged with rate of 40%.
+
+(Hint: formula for tax is: (salary *rate)/100. You need to display two things: 
+Tax payable. Income after tax deduction)
+
+2. Write a program to test whether a number entered is odd, even or zero.
+
+3. A certain grade of steel is graded according to the following conditions:
+    ```text
+    a. Hardness must be greater than 50. 
+	b. Carbon content must be less than 0.7. 
+	c. Tensile strength must be greater than 5600. 
+
+The grades are as follows:
+
+    If all three conditions are satisfied then Grade will be 10.
+    If condition (a) and (b) are satisfied then Grade will be 9.
+    If conditions (b) and (c) are satisfied then Grade will be 8.
+    If conditions (a) and (c) are satisfied then Grade will be 7.
+    If any one condition is satisfied then Grade will be 6. 
+    If none of the conditions are satisfied then Grade will be 5. 
+
+Write a program which will require the user to input values of hardness, carbon content and tensile strength of the steel and print the grade of steel according to the given conditions.
+
+---
+
+# Lab_04
+
+1. Write a program that uses a while statement to calculate and print the product of the odd integers from 1 to 15.
+2. Program to calculate sum of numbers from m to n.
+(Hint: Input two numbers m and n. Find sum of all numbers from m to n. For example, m=3 and n=8 then sum will be 3+4+5+6+7+8=33.)
+
+3. Program to display a calculator with arithmetic operator using switch case.
+4. Program to input a number and then calculate sum of its digits.
+(Hint:  let number = 562. Then you should print 5+6+2=13.)
+
+---
+
+# Lab_05
+
+1. The process of finding the largest number is used frequently in computer applications. For example, a program that determines the winner of a sales contest inputs the number of units sold by each salesperson. The salesperson who sells the most units wins the contest. Write a C++ program that uses a for statement to determine and print the largest number of 10 numbers input by the user. 
+
+Your program should use three variables, as follows:
+
+    counter: A counter to count to 10 (i.e., to keep track of how many numbers have
+    been input and to determine when all 10 numbers have been processed).
+    number: The current number input to the program.
+    largest: The largest number found so far.
+2. Write a C++ program that uses a for statement and the tab escape sequence
+`\t` to print the following table of values:
+   ![alt text](images/Lab_05.png)
+3. Print stars Sequence1:
+
+    *
+    **
+    ***
+    ****
+    *****
+
+4. Print numbers Sequence2:
+    ```text
+         1
+        12 
+       123
+      1234
+     12345
