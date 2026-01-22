@@ -168,13 +168,13 @@ Write a program to calculate the area of the following figures using **function 
 2. Quality Points (Student Evaluation)
 Write a function called `qualityPoints` that inputs a student's average and returns a grade point value based on the following ranges:
 
-| Average Range | Returned Quality Point |
-| :--- | :--- |
-| 90 – 100 | 4 |
-| 80 – 89 | 3 |
-| 70 – 79 | 2 |
-| 60 – 69 | 1 |
-| Lower than 60 | 0 |
+    | Average Range | Returned Quality Point |
+    | :--- | :--- |
+    | 90 – 100 | 4 |
+    | 80 – 89 | 3 |
+    | 70 – 79 | 2 |
+    | 60 – 69 | 1 |
+    | Lower than 60 | 0 |
 
 ---
 
