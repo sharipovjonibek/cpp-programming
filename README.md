@@ -15,5 +15,6 @@ Basic C++ and Object-Oriented Programming (OOP) lab assignments, covering fundam
 1.	Write a program that inputs three integers from the keyboard and prints the sum, average, product, smallest and largest of these numbers.
 ( Hint: Please do not use the min and max functions.)
 2.  Write a program that calculates the squares and cubes of the integers from 0 to 10. Use tabs to print the following neatly formatted table of values:
+
 ![My Image](images/Lab_02.png)
 
