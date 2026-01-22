@@ -120,7 +120,6 @@ This repository contains **basic C++ and Object-Oriented Programming (OOP) lab a
     ***
     ****
     *****
-
 4. **Number Pattern Sequence**
     ```text
         1
@@ -128,3 +127,24 @@ This repository contains **basic C++ and Object-Oriented Programming (OOP) lab a
       123
      1234
     12345
+
+---
+
+## Lab 06
+
+1. Write a program using function that use for statement, returns average of numbers from 1 to 10.
+
+2. Write a function that takes an integer value and returns the number with its digits reversed. For example, given the number 7631, the function should return 1367.
+
+### 3. Celsius and Fahrenheit Conversion
+- **Task:** Implement three integer functions:
+  1. `celsius(int f)` - returns the Celsius equivalent of a Fahrenheit temperature.
+  2. `fahrenheit(int c)` - returns the Fahrenheit equivalent of a Celsius temperature.
+  3. Write a program using these functions to print **charts**:
+     - Fahrenheit equivalents of all Celsius temperatures from `0` to `100`.
+     - Celsius equivalents of all Fahrenheit temperatures from `32` to `212`.
+     - Format output in neat tables for readability.
+
+- **Hints:**
+  ![Lab_06 Hint](images/Lab_06.png)
+
