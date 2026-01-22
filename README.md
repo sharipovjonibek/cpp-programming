@@ -193,14 +193,14 @@ Write a program that utilizes **function templates** to determine the larger and
 
 1. Write a program with the two functions specified below, each of which simply **triples** the variable `count` defined in `main`.
 
-### a) `tripleByValue`
-- Passes a **copy** of `count` by value  
-- Triples the copy  
-- Returns the new value  
+    a) `tripleByValue`
+    - Passes a **copy** of `count` by value  
+    - Triples the copy  
+    - Returns the new value  
 
-### b) `tripleByReference`
-- Passes `count` by **reference** using a reference parameter  
-- Triples the **original** value of `count`  
+    b) `tripleByReference`
+    - Passes `count` by **reference** using a reference parameter  
+    - Triples the **original** value of `count`  
 
 ---
 
@@ -208,7 +208,7 @@ Write a program that utilizes **function templates** to determine the larger and
 
 **Example:**
 
-    ```text
+    
     digitsSum(1, 11) ➞ 48
 
 ---
