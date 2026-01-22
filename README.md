@@ -249,8 +249,8 @@ Create a function that returns an array indicating **who is winning at each turn
 **Rules**
 
     - Compare cumulative scores after each turn
-    - `"Y"` if you are winning
-    - `"O"` if your opponent is winning
+    - "Y" if you are winning
+    - "O" if your opponent is winning
 
 **Example:**
 
@@ -268,6 +268,16 @@ Create a function that returns an array indicating **who is winning at each turn
 
 3. Write a program to dynamically allocate an integer, a character and a string, assign a value to them and print out their values.
 (Hint: use new and delete operators to declare variables)
+
+---
+
+## Lab 11
+
+1. Write a program to demonstrate how an array can be passed to a function using pointers. The function should take the array and its size as arguments and return the largest element in the array.
+
+2. Write a program that dynamically allocates memory for an array of integers using new operator. The program should take n elements as input by user and calculate the average of the elements using a pointer.
+
+3. Write a C++ program that demonstrates how to access and modify elements of a 2D array using pointers. The program should change the value of an element and print the modified array.
 
 ---
 
