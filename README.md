@@ -260,3 +260,18 @@ Create a function that returns an array indicating **who is winning at each turn
 
 ---
 
+## Lab 10
+
+1. Write a function that inputs sides of rectangle from the keyboard to calculate area of a rectangle using pointers.
+
+2. Write a function that inputs two strings from the keyboard to swap them using pointers. 
+
+3. Write a program to dynamically allocate an integer, a character and a string, assign a value to them and print out their values.
+
+(Hint: use new and delete operators to declare variables)
+
+---
+
+
+
+
