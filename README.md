@@ -153,7 +153,7 @@ This repository contains **basic C++ and Object-Oriented Programming (OOP) lab a
 
 ## Lab 07
 
-## 1. Area Calculation (Function Overloading)
+1. Area Calculation (Function Overloading)
 Write a program to calculate the area of the following figures using **function overloading**:
 * **Rectangle**
 * **Triangle**
@@ -165,7 +165,7 @@ Write a program to calculate the area of the following figures using **function 
 
 ---
 
-## 2. Quality Points (Student Evaluation)
+2. Quality Points (Student Evaluation)
 Write a function called `qualityPoints` that inputs a student's average and returns a grade point value based on the following ranges:
 
 | Average Range | Returned Quality Point |
@@ -178,7 +178,7 @@ Write a function called `qualityPoints` that inputs a student's average and retu
 
 ---
 
-## 3. Maximum and Minimum (Function Templates)
+3. Maximum and Minimum (Function Templates)
 Write a program that utilizes **function templates** to determine the larger and smaller of two arguments.
 
 * **Functions:** Implement templates called `maximum` and `minimum`.
