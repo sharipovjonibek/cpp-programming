@@ -215,3 +215,48 @@ Write a program that utilizes **function templates** to determine the larger and
 
 3. Find G.C.D for two integers using recursion
 
+---
+
+## Lab 09
+
+1. Write a function that returns the **sum of all elements strictly greater than 10** in a given array.
+
+Do **not** include elements equal to 10.
+
+**Example:**
+
+    sumTen([1, 5, 10, 30, 4, 9, 18]) ➞ 48
+
+---
+
+2. Create a function that takes an array of numbers and **sorts it in ascending order** (smallest to biggest).
+
+**Example:**
+
+    sortNums([1, 2, 10, 50, 5]) ➞ [1, 2, 5, 10, 50]
+
+---
+
+3. Who Is Currently Winning?
+
+You are given an array of scores:
+
+- **Even-indexed values** represent **your scores (Y)**
+- **Odd-indexed values** represent **your opponent's scores (O)**
+
+Create a function that returns an array indicating **who is winning at each turn**.
+
+**Rules**
+
+    - Compare cumulative scores after each turn
+    - `"Y"` if you are winning
+    - `"O"` if your opponent is winning
+
+**Example:**
+
+    [5, 10, 18, 30, 15, 40, 60, 14, 12, 10]
+    Y scores: [5, 18, 15, 60, 12]
+    O scores: [10, 30, 40, 14, 10]
+
+---
+
