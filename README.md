@@ -136,7 +136,7 @@ This repository contains **basic C++ and Object-Oriented Programming (OOP) lab a
 
 2. Write a function that takes an integer value and returns the number with its digits reversed. For example, given the number 7631, the function should return 1367.
 
-### 3. Celsius and Fahrenheit Conversion
+3. Celsius and Fahrenheit Conversion
 - **Task:** Implement three integer functions:
   1. `celsius(int f)` - returns the Celsius equivalent of a Fahrenheit temperature.
   2. `fahrenheit(int c)` - returns the Fahrenheit equivalent of a Celsius temperature.
