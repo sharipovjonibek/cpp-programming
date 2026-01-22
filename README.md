@@ -255,8 +255,8 @@ Create a function that returns an array indicating **who is winning at each turn
 **Example:**
 
     [5, 10, 18, 30, 15, 40, 60, 14, 12, 10]
-    Y scores: [5, 18, 15, 60, 12]
-    O scores: [10, 30, 40, 14, 10]
+     Y scores: [5, 18, 15, 60, 12]
+     O scores: [10, 30, 40, 14, 10]
 
 ---
 
