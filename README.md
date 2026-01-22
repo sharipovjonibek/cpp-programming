@@ -146,5 +146,6 @@ This repository contains **basic C++ and Object-Oriented Programming (OOP) lab a
      - Format output in neat tables for readability.
 
 - **Hints:**
+
   ![Lab_06 Hint](images/Lab_06.png)
 
