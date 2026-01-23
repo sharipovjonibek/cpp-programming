@@ -219,7 +219,7 @@ Write a program that utilizes **function templates** to determine the larger and
 
 ## Lab 09
 
-1. Write a function that returns the **sum of all elements strictly greater than 10** in a given array.
+#### 1. Write a function that returns the **sum of all elements strictly greater than 10** in a given array.
 
 Do **not** include elements equal to 10.
 
@@ -229,7 +229,7 @@ Do **not** include elements equal to 10.
 
 ---
 
-2. Create a function that takes an array of numbers and **sorts it in ascending order** (smallest to biggest).
+#### 2. Create a function that takes an array of numbers and **sorts it in ascending order** (smallest to biggest).
 
 **Example:**
 
@@ -237,7 +237,7 @@ Do **not** include elements equal to 10.
 
 ---
 
-3. Who Is Currently Winning?
+#### 3. Who Is Currently Winning?
 
 You are given an array of scores:
 
