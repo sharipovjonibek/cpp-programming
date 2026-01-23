@@ -153,7 +153,7 @@ This repository contains **basic C++ and Object-Oriented Programming (OOP) lab a
 
 ## Lab 07
 
-#### 1. Area Calculation (Function Overloading)
+### 1. Area Calculation (Function Overloading)
 Write a program to calculate the area of the following figures using **function overloading**:
 * **Rectangle**
 * **Triangle**
@@ -165,7 +165,7 @@ Write a program to calculate the area of the following figures using **function 
 
 ---
 
-#### 2. Quality Points (Student Evaluation)
+### 2. Quality Points (Student Evaluation)
 Write a function called `qualityPoints` that inputs a student's average and returns a grade point value based on the following ranges:
 
     | Average Range | Returned Quality Point |
@@ -178,7 +178,7 @@ Write a function called `qualityPoints` that inputs a student's average and retu
 
 ---
 
-#### 3. Maximum and Minimum (Function Templates)
+### 3. Maximum and Minimum (Function Templates)
 Write a program that utilizes **function templates** to determine the larger and smaller of two arguments.
 
 * **Functions:** Implement templates called `maximum` and `minimum`.
@@ -191,7 +191,7 @@ Write a program that utilizes **function templates** to determine the larger and
 
 ## Lab 08
 
-#### 1. Write a program with the two functions specified below, each of which simply **triples** the variable `count` defined in `main`.
+### 1. Write a program with the two functions specified below, each of which simply **triples** the variable `count` defined in `main`.
 
     a) `tripleByValue`
     - Passes a **copy** of `count` by value  
@@ -204,7 +204,7 @@ Write a program that utilizes **function templates** to determine the larger and
 
 ---
 
-#### 2. Create a function that takes a **range of numbers** and returns the **sum of the digits** among the first and last number in the range.
+### 2. Create a function that takes a **range of numbers** and returns the **sum of the digits** among the first and last number in the range.
 
 **Example:**
 
@@ -213,13 +213,13 @@ Write a program that utilizes **function templates** to determine the larger and
 
 ---
 
-#### 3. Find G.C.D for two integers using recursion
+### 3. Find G.C.D for two integers using recursion
 
 ---
 
 ## Lab 09
 
-#### 1. Write a function that returns the **sum of all elements strictly greater than 10** in a given array.
+### 1. Write a function that returns the **sum of all elements strictly greater than 10** in a given array.
 
 Do **not** include elements equal to 10.
 
@@ -229,7 +229,7 @@ Do **not** include elements equal to 10.
 
 ---
 
-#### 2. Create a function that takes an array of numbers and **sorts it in ascending order** (smallest to biggest).
+### 2. Create a function that takes an array of numbers and **sorts it in ascending order** (smallest to biggest).
 
 **Example:**
 
@@ -237,7 +237,7 @@ Do **not** include elements equal to 10.
 
 ---
 
-#### 3. Who Is Currently Winning?
+### 3. Who Is Currently Winning?
 
 You are given an array of scores:
 
@@ -283,7 +283,7 @@ Create a function that returns an array indicating **who is winning at each turn
 
 ## Lab 12
 
-#### 1. Real Estate Management System
+### 1. Real Estate Management System
 
 Objective
 - Design a **Real Estate Management System** using **OOP** in C++.
