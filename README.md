@@ -191,7 +191,7 @@ Write a program that utilizes **function templates** to determine the larger and
 
 ## Lab 08
 
-1. Write a program with the two functions specified below, each of which simply **triples** the variable `count` defined in `main`.
+#### 1. Write a program with the two functions specified below, each of which simply **triples** the variable `count` defined in `main`.
 
     a) `tripleByValue`
     - Passes a **copy** of `count` by value  
@@ -204,7 +204,7 @@ Write a program that utilizes **function templates** to determine the larger and
 
 ---
 
-2. Create a function that takes a **range of numbers** and returns the **sum of the digits** among the first and last number in the range.
+#### 2. Create a function that takes a **range of numbers** and returns the **sum of the digits** among the first and last number in the range.
 
 **Example:**
 
@@ -213,7 +213,7 @@ Write a program that utilizes **function templates** to determine the larger and
 
 ---
 
-3. Find G.C.D for two integers using recursion
+#### 3. Find G.C.D for two integers using recursion
 
 ---
 
