@@ -286,10 +286,10 @@ Create a function that returns an array indicating **who is winning at each turn
 #### 1. Real Estate Management System
 
 Objective
-Design a **Real Estate Management System** using **OOP** in C++.
+- Design a **Real Estate Management System** using **OOP** in C++.
 
 Task
-Implement a class `Property` with:
+- Implement a class `Property` with:
 
 Data Members
 - `propertyId` (int)  
