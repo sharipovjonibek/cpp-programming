@@ -281,6 +281,31 @@ Create a function that returns an array indicating **who is winning at each turn
 
 ---
 
+## Lab 12
+
+## 1. Real Estate Management System
+
+# Objective
+Design a **Real Estate Management System** using **OOP** in C++.
+
+# Task
+Implement a class `Property` with:
+
+# Data Members
+- `propertyId` (int)  
+- `propertyName` (string)  
+- `propertyValue` (int)  
+
+# Member Functions
+- `getPropertyId()`, `setPropertyId()`  
+- `getPropertyName()`, `setPropertyName()`  
+- `getPropertyValue()`, `setPropertyValue()`  
+
+> Set functions must validate the data (e.g., positive ID, non-empty name, non-negative value).  
+
+# Requirements
+- Use **private members** with getters and setters.  
+- Ensure **data validation** in setters.
 
 
 
