@@ -168,13 +168,13 @@ Write a program to calculate the area of the following figures using **function 
 ### 2. Quality Points (Student Evaluation)
 Write a function called `qualityPoints` that inputs a student's average and returns a grade point value based on the following ranges:
 
-    | Average Range | Returned Quality Point |
-    | :--- | :--- |
-    | 90 – 100 | 4 |
-    | 80 – 89 | 3 |
-    | 70 – 79 | 2 |
-    | 60 – 69 | 1 |
-    | Lower than 60 | 0 |
+   | Average Range | Returned Quality Point |
+   | :--- | :--- |
+   | 90 – 100 | 4 |
+   | 80 – 89 | 3 |
+   | 70 – 79 | 2 |
+   | 60 – 69 | 1 |
+   | Lower than 60 | 0 |
 
 ---
 
@@ -193,14 +193,14 @@ Write a program that utilizes **function templates** to determine the larger and
 
 ### 1. Write a program with the two functions specified below, each of which simply **triples** the variable `count` defined in `main`.
 
-    a) `tripleByValue`
-    - Passes a **copy** of `count` by value  
+    a) tripleByValue
+    - Passes a copy of count by value  
     - Triples the copy  
     - Returns the new value  
 
-    b) `tripleByReference`
-    - Passes `count` by **reference** using a reference parameter  
-    - Triples the **original** value of `count`  
+    b) tripleByReference
+    - Passes count by reference using a reference parameter  
+    - Triples the original value of count  
 
 ---
 
@@ -254,9 +254,9 @@ Create a function that returns an array indicating **who is winning at each turn
 
 **Example:**
 
-    [5, 10, 18, 30, 15, 40, 60, 14, 12, 10]
-     Y scores: [5, 18, 15, 60, 12]
-     O scores: [10, 30, 40, 14, 10]
+   - [5, 10, 18, 30, 15, 40, 60, 14, 12, 10]
+   - Y scores: [5, 18, 15, 60, 12]
+   - O scores: [10, 30, 40, 14, 10]
 
 ---
 
@@ -306,6 +306,10 @@ Member Functions
 Requirements
 - Use **private members** with getters and setters.  
 - Ensure **data validation** in setters.
+
+---
+
+## Lab 13
 
 
 
