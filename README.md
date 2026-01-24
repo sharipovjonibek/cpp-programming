@@ -311,5 +311,23 @@ Requirements
 
 ## Lab 13
 
+### Objective:
+- You need to design a system that allows: Adding books to the library. Displaying book details. Keeping track of the number of books for each book object individually.
+
+### Requirements:
+- 1.	Define a class Book with the following attributes:  bookID (int), title (string), author (string), price (float).
+- 2.	Define the default constructor that initializes the attributes with default values like bookID = 0, title = "Unknown", author = "Unknown", and price = 0.0.
+- 3.	Define Parameterized Constructor that Initializes book details. (bookID, title, author, price).
+- 4.	Define Copy Constructor that it takes book details from existing object.
+- 5.	Define Destructor: Display a message when a book is deleted. (“The book is deleted”)
+- 6.	Define Display( ): Shows book details. (bookID, title, author, price).
+- 7.	Create multiple Book objects with different details.
+
+---
+
+## Lab 14
+
+
+
 
 
