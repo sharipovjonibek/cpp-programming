@@ -311,7 +311,7 @@ Requirements
 
 ## Lab 13
 
-### 1.Library Management System
+### 1. Library Management System
 
 ### Objective:
 - You need to design a system that allows: Adding books to the library. Displaying book details. Keeping track of the number of books for each book object individually.
@@ -329,7 +329,7 @@ Requirements
 
 ## Lab 14
 
-### 1.Automated Teller Machine (ATM)
+### 1. Automated Teller Machine (ATM)
 
 ### Objective:
 - The system should simulate an ATM by managing user account details, handling balance inquiries and transactions, and displaying user information using class composition.
