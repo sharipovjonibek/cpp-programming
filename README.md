@@ -327,6 +327,30 @@ Requirements
 
 ## Lab 14
 
+### Objective:
+- The system should simulate an ATM by managing user account details, handling balance inquiries and transactions, and displaying user information using class composition.
+
+### **Tasks**
+- 1.	Define a classes ATM, Account and Balance.
+- 2.	ATM is using objects of class Account and Balance as members. Class ATM has a composition relationship with class Account and Balance. 
+- 3.	Private members of class Account: BankCard(int), AccountName (string) and PinNumber (int).
+- Define Parameterized Constructor that Initializes account details. (BankCard, AccountName, PinNumber).
+- Define Display( ): Shows account details.
+- 4.	Private members of class Balance: BalanceInquiry(int), Withdrawal(int) and Deposit(int).
+- Define Parameterized Constructor that Initializes account details. (BalanceInquiry ,Withdrawal, Deposit).
+- Define Show( ): Shows balance details.
+- 5.	The ATM class should define an Account & Balance object as private members of the ATM class.
+- Define Parameterized Constructor that initializes the Account and Balance objects using the parameterized constructors of their respective classes. It initializes: account with card, name, and pin. Balance with withdrawal, deposit, and inquiry.
+- Define Parameterized Constructor that initializes the Account and Balance objects using the parameterized constructors of their respective classes. It initializes: account with card, name, and pin. Balance with withdrawal, deposit, and inquiry.
+- 6.	Create three different ATM objects to display user information.
+
+---
+
+## Lab 15
+
+
+
+
 
 
 
