@@ -352,6 +352,31 @@ Requirements
 
 ## Lab 15
 
+### 1. Stock exchange 
+
+### Objective:
+- Develop a system that simulates a stock exchange by managing buying, selling, and limit orders. The system should display live stock prices and market trends using operator overloading.
+
+### **Tasks**
+- 1.	Define a class StockEx.
+- 2.	Declare the following private members:
+- currency (string) – Represents the currency name.
+- mktrate (float) – Represents the market rate of the currency.
+- date (int) – Represents the date of the market rate.
+- 3.	Implement a parameterized constructor to initialize stock exchange details (currency, mktrate, date).
+- 4.	Overload the multiplication operator (*) to exchange currency based on the market rate.
+- 5.	Overload the subtraction operator (-) to calculate the difference between two market rates.
+- 6.	Overload the stream insertion operator (<<) to print stock exchange details.
+- 7.	Overload the stream extraction operator (>>) to take user input for a StockEx object.
+- 8.	Create three different StockEx objects, use overloaded operators (*, -, <<, >>), and display the results.
+
+---
+
+## Lab 16
+
+
+
+
 
 
 
