@@ -5,6 +5,7 @@ This repository is a collection of hands-on lab assignments that I completed whi
 
 Instead of only reading theory, I learned by writing real programs that solve practical problems - calculators, grading systems, banking systems, library management, hospital systems, and more.
 
+
 ## What You will learn here
 By going through these labs, you can practice and understand:
 - C++ basics (variables, input/output, operators)
@@ -25,6 +26,7 @@ By going through these labs, you can practice and understand:
 
 Each lab builds on the previous one, so beginners can follow the path from "Hello World"  →   "Full OOP Systems".
 
+
 ## Resources 
 Here are some of the main resources that helped me while learning C++ and OOP:
 - ["Mastering Data Structures & Algorithms using C and C++" by Abdul Bari](https://www.udemy.com/course/datastructurescncpp)
@@ -35,13 +37,16 @@ Here are some of the main resources that helped me while learning C++ and OOP:
 - [GeeksforGeeks](https://www.geeksforgeeks.org/cpp/c-plus-plus/)
 - [w3schools](https://www.w3schools.com/cpp/default.asp)
 
+
 ## How to Use This Repository
 1. Pick a lab.
 2. Read the task.
 3. Try solving it yourself first.
 4. Then compare with solution code.
 
+
 ---
+
 
 ## Lab 01
 
