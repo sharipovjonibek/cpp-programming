@@ -1,6 +1,45 @@
-# OOP Lab Assignments
+# C++ & OOP Learning Journey
+Welcome to my C++ and Object-Oriented Programming learning journey.
 
-This repository contains **basic C++ and Object-Oriented Programming (OOP) lab assignments**, covering fundamental concepts such as **classes, inheritance, polymorphism, and encapsulation**.
+This repository is a collection of hands-on lab assignments that I completed while learning C++ at university. Each lab focuses on building a strong foundation step by step, starting from simple console programs and moving toward full OOP design, inheritance, polymorphism, operator overloading, file handling, and templates.
+
+Instead of only reading theory, I learned by writing real programs that solve practical problems - calculators, grading systems, banking systems, library management, hospital systems, and more.
+
+## What You will learn here
+By going through these labs, you can practice and understand:
+- C++ basics (variables, input/output, operators)
+- Control structures (if/else, loops, switch)
+- Functions and recursion
+- Arrays and pointers
+- Dynamic memory allocation (new / delete)
+- Object-Oriented Programming:
+   - Classes and objects
+   - Constructors and destructors
+   - Encapsulation (getters/setters)
+   - Inheritance
+   - Polymorphism (compile-time & run-time)
+   - Operator overloading
+- Templates (function and class templates)
+- File handling (reading/writing with streams)
+- Real-world style mini systems (ATM, Library, Hospital, University, Bank, Stock Exchange)
+
+Each lab builds on the previous one, so beginners can follow the path from "Hello World"  →   "Full OOP Systems".
+
+## Resources 
+Here are some of the main resources that helped me while learning C++ and OOP:
+["Mastering Data Structures & Algorithms using C and C++" by Abdul Bari](https://www.udemy.com/course/datastructurescncpp)
+["C++ Full Course for free" by Bro Code](https://www.youtube.com/watch?v=-TkoO8Z07hI)
+["C++ Programming Course - Beginner to Advanced" by freeCodeCamp.org](https://www.youtube.com/watch?v=8jLOx1hD3_o)
+["C++" by The Cherno](https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb)
+["C++" by CodeBeauty](https://www.youtube.com/playlist?list=PL43pGnjiVwgTg9IGE0ijSMDxVG66Lhye2)
+[GeeksforGeeks](https://www.geeksforgeeks.org/cpp/c-plus-plus/)
+[w3schools](https://www.w3schools.com/cpp/default.asp)
+
+## How to Use This Repository
+1. Pick a lab.
+2. Read the task.
+3. Try solving it yourself first.
+4. Then compare with solution code.
 
 ---
 
