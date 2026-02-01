@@ -374,6 +374,171 @@ Requirements
 
 ## Lab 16
 
+### 1. Bank Management System
+
+### Objective:
+- Extend the Bank Management System by implementing operator overloading in the Account class to enhance its functionality.
+
+### **Tasks**
+- 1. Define Account class.
+- 2. Declare the following private members: 
+- AccountName (string) – Represents the client’s name.
+- AccountNumber (int) – Represents the client account number.
+- type (string) – Represents the type of account.
+- Balance(float)- Represents the balance of the amount.
+- 3. Implement a parameterized constructor to initialize account details (AccountName, AccountNumber, type, Balance).
+- 4. Implement functions to deposit and withdraw money from the account:
+- deposit() – Adds the amount to the balance.
+- withdraw() – Subtracts the amount from the balance.
+- 5. Overload relational operators for the Account class:
+- operator(==): To check if two accounts have the same account number.
+- operator(>): To check if one account's balance is greater than another account's balance.
+- 6. Overload the stream insertion (<<) and extraction (>>) operators for the Account class:
+- Overload operator(<<) to display account details.
+- Overload operator(>>) to take user input for an Account object (account name, number, type, balance).
+- 7. Create several Account objects, performing deposit and withdrawal operations, and display account details.
+
+---
+
+## Lab 17
+
+### 1. Student Score System
+
+### Objective:
+- Extend the Student Score System by implementing inheritance in the Student class to create classes. Additionally, understand the concepts of public, protected, and private members within the context of inheritance.
+
+### **Tasks**
+- 1. Create Base class:
+- Define a class Student.
+- Declare the following protected members: ID (int), Name (string), school (string) and GroupNumber(int).
+- 2. Create Derived Classes:
+- Define a class Test inheriting from the Student class.
+- Define a class Result inheriting from the Test class. 
+- Implement constructors for the base and derived classes: Ensure proper initialization of data members in constructors.
+- Declare the following protected members for Test class: Physics(int), OOP(int) and English(int) marks.
+- Declare the following private members for Result class: 
+- Total(int) – Represents the total marks for all subjects.
+- GPI(float) – Represents the average mark across all subjects.
+- Create display function for Result class.
+
+---
+
+## Lab 18
+
+### 1. University Management System
+
+### Objective:
+- The university management wishes to extend its database to include employee and student information. Additionally, understand the concept of polymorphism.
+
+### **Tasks**
+- 1. Create Base class:
+- Define a class Person.
+- Declare the following protected members: Name(string), Age(int), Gender (char). 
+- Create a showData() member function that prints the name, age and gender.
+- 2. Create two classes: Student and Teacher, both inheriting from the Person class.
+- Declare the following protected members for Student class: IDnumber (int), subject(string) and grade(int).
+- Create a showStudent() member function that prints the IDnumber, subject and grade.
+- Declare the following protected members for Teacher class: courseInfo(string).
+- Create a showTeacher() member function that prints the courseInfo.
+- 3. Define a class ECLASS that inherits from both the Student and Teacher classes.
+- Create a setData() member function that takes name, age and gender as parameters.
+- Create a setData() member function that takes IDnumber, subject and grade as parameters.
+- Create a setData() member function that takes courseInfo as parameter.
+- Create a ShowStudentInfo() member function that prints the name, age, gender, idnumber, subject and grade.
+- Create a ShowTeacherInfo() member function that prints the name, age, gender, and courseInfo.
+
+---
+
+## Lab 19
+
+### 1. Hospital Management System
+
+### Objective:
+- The hospital management wishes to extend its database to include doctor and patient information. Additionally, understand the concept of run time polymorphism.
+
+### **Tasks**
+1. Create Base class:
+- Define a class Hospital.
+- Declare the following protected members: ID(int), Name(string), Age(int) and Gender (char).
+- Implement a parameterized constructor to initialize hospital details (ID, Name, Age, Gender).
+- Create a virtual Display() member function that prints the id, name, age and gender.
+2. Create two classes: Doctor and Patient, both inheriting from the Hospital class.
+- Declare the following private members for Doctor class: department (string), cons_day(string), cons_hours(int) and surgery_day(string).
+- Implement a parameterized constructor to initialize doctor details (department, cons_day, cons_hours, surgery_day)
+- Create a Display() member function that prints the department, cons_day, cons_hours and surgery_day.
+- Declare the following private members for Patient class: med_history(string).
+- Implement a parameterized constructor to initialize patient details (med_history).
+- Create a Display() member function that prints the med_history.
+3. Create several objects with using pointers to a base class to store and display different types of hospital objects. 
+
+Hint: Declare an array of pointers to hospital objects. The array size is 4, as it will hold pointers to two doctors and two patients.
+
+---
+
+## Lab 20
+
+### Topics Covered
+- Function templates
+- Class templates
+
+### **Tasks**
+1. Define a base class Person which includes protected members: Name(string), Age(int) and Gender(char).
+- Implement a parameterized constructor to initialize person details (Name, Age and Gender).
+- Create a virtual Display() member function that prints the name, age and gender.
+2. Define a class template called Student inherit from Person with the following private member variable:
+- IDNumber of type T (for roll number of the student)
+- Implement a parameterized constructor to initialize student details (IDnumber, Name, Age and Gender).
+3. Create a Display() member function that prints the IDnumber ,name, age and gender.
+4. Create 4 objects with different data types and display their details using the display() function.
+
+---
+
+## Lab 21
+
+### Topics Covered
+- Streams
+- Stream output
+- Stream input
+
+### **Tasks**
+1. Stream Output (Writing to a File):
+- Write the each student ID(string), Name(string) and three exam Scores(int) to a text file named "students.txt".(3 different inputs)
+- Write the each student ID, Name and Calculate the average of the scores into a new file. (averages.txt).
+- Use append mode for the files "students.txt" and "averages.txt".
+2. Stream Input (Reading from a File):
+- Reading the content of the "students.txt" and "averages.txt" files.
+- Display all the information from files to the console.
+3. Use proper error checking for file opening and reading. 
+
+Hint: Use member function good().
+
+## Lab 22
+
+### Topics Covered
+- File pointers
+- Stream manipulators
+
+### **Tasks**
+1. Create a Person class that can declare the following protected members: Name(string), Address(string) and PhoneNumber (int).
+2.	Write a program that will create a data file containing name, address and telephone numbers of person. (Person.dat)
+3. Use a class object to store each set of data. Read the file contents and display it on screen.
+4. Write an interactive menu driven program that will access the file created in program and implement the following tasks:
+1.	Determine the telephone number of the specified person.
+2.	Determine the name if telephone number is known.
+3.	Delete a record.
+4.	Add a record to a specific position.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
