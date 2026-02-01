@@ -1,5 +1,6 @@
+# C++ & OOP Learning Journey
 ## Contents
-- [C++ & OOP Learning Journey](#c++-&-oop-learning-journey)
+- [About This Repository](#about-this-repository)
 - [What You Will Learn Here](#what-you-will-learn-here)
 - [Resources](#resources)
 - [How to Use This Repository](#how-to-use-this-repository)
@@ -30,7 +31,7 @@
 - [Lab 22 – File Handling System](#lab-22)
 
 
-# C++ & OOP Learning Journey
+## About This Repository
 Welcome to my C++ and Object-Oriented Programming learning journey.
 
 This repository is a collection of hands-on lab assignments that I completed while learning C++ at university. Each lab focuses on building a strong foundation step by step, starting from simple console programs and moving toward full OOP design, inheritance, polymorphism, operator overloading, file handling, and templates.
