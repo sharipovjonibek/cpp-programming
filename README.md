@@ -317,13 +317,13 @@ Requirements
 - You need to design a system that allows: Adding books to the library. Displaying book details. Keeping track of the number of books for each book object individually.
 
 ### Requirements:
-- 1.	Define a class Book with the following attributes:  bookID (int), title (string), author (string), price (float).
-- 2.	Define the default constructor that initializes the attributes with default values like bookID = 0, title = "Unknown", author = "Unknown", and price = 0.0.
-- 3.	Define Parameterized Constructor that Initializes book details. (bookID, title, author, price).
-- 4.	Define Copy Constructor that it takes book details from existing object.
-- 5.	Define Destructor: Display a message when a book is deleted. (“The book is deleted”)
-- 6.	Define Display( ): Shows book details. (bookID, title, author, price).
-- 7.	Create multiple Book objects with different details.
+1.	Define a class Book with the following attributes:  bookID (int), title (string), author (string), price (float).
+2.	Define the default constructor that initializes the attributes with default values like bookID = 0, title = "Unknown", author = "Unknown", and price = 0.0.
+3.	Define Parameterized Constructor that Initializes book details. (bookID, title, author, price).
+4.	Define Copy Constructor that it takes book details from existing object.
+5.	Define Destructor: Display a message when a book is deleted. (“The book is deleted”)
+6.	Define Display( ): Shows book details. (bookID, title, author, price).
+7.	Create multiple Book objects with different details.
 
 ---
 
@@ -335,18 +335,18 @@ Requirements
 - The system should simulate an ATM by managing user account details, handling balance inquiries and transactions, and displaying user information using class composition.
 
 ### **Tasks**
-- 1.	Define a classes ATM, Account and Balance.
-- 2.	ATM is using objects of class Account and Balance as members. Class ATM has a composition relationship with class Account and Balance. 
-- 3.	Private members of class Account: BankCard(int), AccountName (string) and PinNumber (int).
+1.	Define a classes ATM, Account and Balance.
+2.	ATM is using objects of class Account and Balance as members. Class ATM has a composition relationship with class Account and Balance. 
+3.	Private members of class Account: BankCard(int), AccountName (string) and PinNumber (int).
 - Define Parameterized Constructor that Initializes account details. (BankCard, AccountName, PinNumber).
 - Define Display( ): Shows account details.
-- 4.	Private members of class Balance: BalanceInquiry(int), Withdrawal(int) and Deposit(int).
+4.	Private members of class Balance: BalanceInquiry(int), Withdrawal(int) and Deposit(int).
 - Define Parameterized Constructor that Initializes account details. (BalanceInquiry ,Withdrawal, Deposit).
 - Define Show( ): Shows balance details.
-- 5.	The ATM class should define an Account & Balance object as private members of the ATM class.
+5.	The ATM class should define an Account & Balance object as private members of the ATM class.
 - Define Parameterized Constructor that initializes the Account and Balance objects using the parameterized constructors of their respective classes. It initializes: account with card, name, and pin. Balance with withdrawal, deposit, and inquiry.
 - Define Parameterized Constructor that initializes the Account and Balance objects using the parameterized constructors of their respective classes. It initializes: account with card, name, and pin. Balance with withdrawal, deposit, and inquiry.
-- 6.	Create three different ATM objects to display user information.
+6.	Create three different ATM objects to display user information.
 
 ---
 
@@ -358,17 +358,17 @@ Requirements
 - Develop a system that simulates a stock exchange by managing buying, selling, and limit orders. The system should display live stock prices and market trends using operator overloading.
 
 ### **Tasks**
-- 1.	Define a class StockEx.
-- 2.	Declare the following private members:
+1.	Define a class StockEx.
+2.	Declare the following private members:
 - currency (string) – Represents the currency name.
 - mktrate (float) – Represents the market rate of the currency.
 - date (int) – Represents the date of the market rate.
-- 3.	Implement a parameterized constructor to initialize stock exchange details (currency, mktrate, date).
-- 4.	Overload the multiplication operator (*) to exchange currency based on the market rate.
-- 5.	Overload the subtraction operator (-) to calculate the difference between two market rates.
-- 6.	Overload the stream insertion operator (<<) to print stock exchange details.
-- 7.	Overload the stream extraction operator (>>) to take user input for a StockEx object.
-- 8.	Create three different StockEx objects, use overloaded operators (*, -, <<, >>), and display the results.
+3.	Implement a parameterized constructor to initialize stock exchange details (currency, mktrate, date).
+4.	Overload the multiplication operator (*) to exchange currency based on the market rate.
+5.	Overload the subtraction operator (-) to calculate the difference between two market rates.
+6.	Overload the stream insertion operator (<<) to print stock exchange details.
+7.	Overload the stream extraction operator (>>) to take user input for a StockEx object.
+8.	Create three different StockEx objects, use overloaded operators (*, -, <<, >>), and display the results.
 
 ---
 
@@ -380,23 +380,23 @@ Requirements
 - Extend the Bank Management System by implementing operator overloading in the Account class to enhance its functionality.
 
 ### **Tasks**
-- 1. Define Account class.
-- 2. Declare the following private members: 
+1. Define Account class.
+2. Declare the following private members: 
 - AccountName (string) – Represents the client’s name.
 - AccountNumber (int) – Represents the client account number.
 - type (string) – Represents the type of account.
 - Balance(float)- Represents the balance of the amount.
-- 3. Implement a parameterized constructor to initialize account details (AccountName, AccountNumber, type, Balance).
-- 4. Implement functions to deposit and withdraw money from the account:
+3. Implement a parameterized constructor to initialize account details (AccountName, AccountNumber, type, Balance).
+4. Implement functions to deposit and withdraw money from the account:
 - deposit() – Adds the amount to the balance.
 - withdraw() – Subtracts the amount from the balance.
-- 5. Overload relational operators for the Account class:
+5. Overload relational operators for the Account class:
 - operator(==): To check if two accounts have the same account number.
 - operator(>): To check if one account's balance is greater than another account's balance.
-- 6. Overload the stream insertion (<<) and extraction (>>) operators for the Account class:
+6. Overload the stream insertion (<<) and extraction (>>) operators for the Account class:
 - Overload operator(<<) to display account details.
 - Overload operator(>>) to take user input for an Account object (account name, number, type, balance).
-- 7. Create several Account objects, performing deposit and withdrawal operations, and display account details.
+7. Create several Account objects, performing deposit and withdrawal operations, and display account details.
 
 ---
 
@@ -408,10 +408,10 @@ Requirements
 - Extend the Student Score System by implementing inheritance in the Student class to create classes. Additionally, understand the concepts of public, protected, and private members within the context of inheritance.
 
 ### **Tasks**
-- 1. Create Base class:
+1. Create Base class:
 - Define a class Student.
 - Declare the following protected members: ID (int), Name (string), school (string) and GroupNumber(int).
-- 2. Create Derived Classes:
+2. Create Derived Classes:
 - Define a class Test inheriting from the Student class.
 - Define a class Result inheriting from the Test class. 
 - Implement constructors for the base and derived classes: Ensure proper initialization of data members in constructors.
@@ -431,16 +431,16 @@ Requirements
 - The university management wishes to extend its database to include employee and student information. Additionally, understand the concept of polymorphism.
 
 ### **Tasks**
-- 1. Create Base class:
+1. Create Base class:
 - Define a class Person.
 - Declare the following protected members: Name(string), Age(int), Gender (char). 
 - Create a showData() member function that prints the name, age and gender.
-- 2. Create two classes: Student and Teacher, both inheriting from the Person class.
+2. Create two classes: Student and Teacher, both inheriting from the Person class.
 - Declare the following protected members for Student class: IDnumber (int), subject(string) and grade(int).
 - Create a showStudent() member function that prints the IDnumber, subject and grade.
 - Declare the following protected members for Teacher class: courseInfo(string).
 - Create a showTeacher() member function that prints the courseInfo.
-- 3. Define a class ECLASS that inherits from both the Student and Teacher classes.
+3. Define a class ECLASS that inherits from both the Student and Teacher classes.
 - Create a setData() member function that takes name, age and gender as parameters.
 - Create a setData() member function that takes IDnumber, subject and grade as parameters.
 - Create a setData() member function that takes courseInfo as parameter.
