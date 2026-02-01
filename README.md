@@ -27,13 +27,13 @@ Each lab builds on the previous one, so beginners can follow the path from "Hell
 
 ## Resources 
 Here are some of the main resources that helped me while learning C++ and OOP:
-["Mastering Data Structures & Algorithms using C and C++" by Abdul Bari](https://www.udemy.com/course/datastructurescncpp)
-["C++ Full Course for free" by Bro Code](https://www.youtube.com/watch?v=-TkoO8Z07hI)
-["C++ Programming Course - Beginner to Advanced" by freeCodeCamp.org](https://www.youtube.com/watch?v=8jLOx1hD3_o)
-["C++" by The Cherno](https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb)
-["C++" by CodeBeauty](https://www.youtube.com/playlist?list=PL43pGnjiVwgTg9IGE0ijSMDxVG66Lhye2)
-[GeeksforGeeks](https://www.geeksforgeeks.org/cpp/c-plus-plus/)
-[w3schools](https://www.w3schools.com/cpp/default.asp)
+- ["Mastering Data Structures & Algorithms using C and C++" by Abdul Bari](https://www.udemy.com/course/datastructurescncpp)
+- ["C++ Full Course for free" by Bro Code](https://www.youtube.com/watch?v=-TkoO8Z07hI)
+- ["C++ Programming Course - Beginner to Advanced" by freeCodeCamp.org](https://www.youtube.com/watch?v=8jLOx1hD3_o)
+- ["C++" by The Cherno](https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb)
+- ["C++" by CodeBeauty](https://www.youtube.com/playlist?list=PL43pGnjiVwgTg9IGE0ijSMDxVG66Lhye2)
+- [GeeksforGeeks](https://www.geeksforgeeks.org/cpp/c-plus-plus/)
+- [w3schools](https://www.w3schools.com/cpp/default.asp)
 
 ## How to Use This Repository
 1. Pick a lab.
